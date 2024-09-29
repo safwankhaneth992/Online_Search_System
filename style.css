@@ -1,0 +1,197 @@
+body {
+    background-color: #fff;
+    /* White background for the main body */
+    color: #333;
+    /* Default text color */
+}
+
+header,
+footer {
+    background-color: #10151c;
+    /* Deep blue color for header and footer */
+    color: #fff;
+    /* Text color for header and footer */
+}
+
+footer {
+    padding: 20px 0;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
+    header button {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+.cont {
+    height: 110vh;
+}
+
+.btn {
+    color: white;
+    border-radius: 0%;
+}
+
+.btn:hover {
+    border-top: solid 1px rgb(255, 0, 0);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imgd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lx {
+    /* border: solid 1px #007bff; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.btn2 {
+    height: 40px;
+}
+
+
+
+.item {
+    /* border: solid 1px #007bff; */
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2 {
+    /* border: solid 1px #007bff; */
+    height: 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn2 {
+    background-color: #10151c;
+    /* border-radius: 3%; */
+    border: solid 1px #10151c;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-left: 20px; */
+    border-radius: 10px;
+
+}
+
+.btn2:hover {
+    border-top: solid 1px rgb(255, 0, 0);
+    color: white;
+    background-color: #10151c;
+
+}
+.btn2:active {
+    border-top: solid 1px rgb(255, 0, 0);
+    color: white;
+    background-color: #10151c;
+
+}
+
+.pr {
+
+    text-align: center;
+
+}
+
+
+.bot {
+    margin: 20px;
+}
+
+.cars {
+    background-color: #10151c;
+}
+
+.serach-box {
+    height: 60vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item1-s {
+    margin-top: 80px;
+}
+.item2-s { 
+    margin-top: 30px;
+    width: 100%;
+    flex-shrink: 100;
+    display: flex;
+    justify-content: center;
+}
+input { 
+    width: 50%;
+margin: 8px;
+border: solid;
+height: 40px;
+border-radius: 10px;
+
+}
+button { 
+    margin-top: 8px;
+}
+.danger { 
+    color: red;
+}
+.warn { 
+    margin-top: 20px;
+}
+.headerF { 
+   color: rgb(255, 0, 0);
+}
+.item3-s { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    flex-shrink: 100;
+    display: flex;
+    justify-content: center;
+}
